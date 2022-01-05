@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 #navigation-container {
 	width: 80vw;
 	height: 65px;
@@ -14,13 +16,22 @@
 
 	border-radius: 12px;
 
+	// Navigaiton logo styling
 	.nav-logo {
 		padding-left: 40px;
 		font-weight: 600;
 		font-size: 1.2rem;
 	}
 
+	// Navigation links styling
 	.nav-links {
 		padding-right: 40px;
+
+		a {
+			text-decoration: none;
+			font-weight: 500;
+			font-size: 1.05rem;
+			color: #161616;
+		}
 	}
 }

@@ -1,0 +1,19 @@
+// This document contains all the scss variables to increa maintainability of the codebase
+
+// imports \\
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// colors \\
+
+/// Fonts \\\
+$primary-lfont-clr: #161616;
+$secondary-lfont-clr: #c4c4c4;
+$active-link-clr: rgb(31, 111, 202);
+
+/// Backgrounds \\\
+$light-background-clr: #fff;
+$dark-background-clr: #0c0d14;
+
+// Font \\
+
+$primary-font: 'Inter', sans-serif;
