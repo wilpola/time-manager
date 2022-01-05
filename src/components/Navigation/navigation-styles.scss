@@ -1,0 +1,26 @@
+#navigation-container {
+	width: 80vw;
+	height: 65px;
+	position: fixed;
+	top: 10px;
+	// left: calc(50vw);
+	margin-left: 10vw;
+	background: #fff;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	border-radius: 12px;
+
+	.nav-logo {
+		padding-left: 40px;
+		font-weight: 600;
+		font-size: 1.2rem;
+	}
+
+	.nav-links {
+		padding-right: 40px;
+	}
+}
